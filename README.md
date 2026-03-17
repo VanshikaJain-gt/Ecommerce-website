@@ -1,6 +1,6 @@
 # 🛒 Ecommerce Website
 
-A fully responsive eCommerce website built using HTML, CSS, and JavaScript. This project demonstrates a modern UI design with product listings and interactive features.
+Developed responsive eCommerce frontend with dynamic cart functionality using HTML, CSS, and JavaScript.
 
 ---
 
