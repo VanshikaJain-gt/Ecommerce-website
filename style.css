@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.root{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    position: relative;
+    top: 90px;
+}
+.card{
+    width: 350px;
+    height: 500px;
+    border: 5px solid rgb(36, 92, 122);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.card img{
+    width: 50%;
+    height: 30%;
+}
+.card h1{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: black;
+}
+.card button{
+padding: 12px 18px;
+font-size: medium;
+font-family: serif;
+background-color: rgb(36, 92, 122);
+color: white;
+border-radius: 15px;
+border: 3px solid white;
+}
+.navbar h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 4px;
+    color: white;
+    margin-left: 20px;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(36, 92, 122) ;
+    height: 70px;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+.navi ul{
+     display: flex;
+    position: absolute;
+     right: 40px;
+     align-items: center;
+}
+ul li{
+    list-style: none;
+    padding: 5px 34px;
+    font-size: 20px;
+    font-family: cambria;
+    margin: 20px 4px;
+    border-radius: 10px;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+#btn{
+    width: 70px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: white;
+    color: rgb(36, 92, 122);
+    border: 3px solid white;
+}
+.cart{
+    width: 550px;
+    height: 450px;
+    background: white;
+    border: 5px solid rgb(36, 92, 122);
+    position: fixed;
+    top: 70px;
+    /* filter: blur(2px); */
+    right: 0px;
+    z-index: 99;
+    overflow: auto;
+    display: none;
+}
+.cart h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin: 15px;
+    font-style: oblique;
+}
+.cart button{
+    width: 80px;
+    height: 30px;
+    margin: 15px;
+    margin-top: 2px;
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: rgb(36, 92, 122);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.show{
+    display: block;
+}
+
